@@ -9,3 +9,4 @@ public class T1 {
         return 2 * n;
     }
 }
+
