@@ -1,4 +1,5 @@
 package homework.h05;
+import java.util.Arrays;
 
 // base
 // https://leetcode.com/problems/maximum-product-difference-between-two-pairs/
