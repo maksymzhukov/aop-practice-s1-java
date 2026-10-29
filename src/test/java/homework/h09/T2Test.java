@@ -6,35 +6,35 @@ import org.junit.jupiter.api.Test;
 
 class T2Test {
 
-    private final T2 solution = new T2();
+  private final T2 solution = new T2();
 
-    @Test
-    void example1_returnsExpectedResult() {
-        int[] nums = {1, 2, 3, 1, 1, 3};
-        int expected = 4;
+  @Test
+  void example1_returnsExpectedResult() {
+    int[] nums = {1, 2, 3, 1, 1, 3};
+    int expected = 4;
 
-        int actual = solution.numIdenticalPairs(nums);
+    int actual = solution.numIdenticalPairs(nums);
 
-        assertThat(actual).isEqualTo(expected);
-    }
+    assertThat(actual).isEqualTo(expected);
+  }
 
-    @Test
-    void example2_returnsExpectedResult() {
-        int[] nums = {1, 1, 1, 1};
-        int expected = 6;
+  @Test
+  void example2_returnsExpectedResult() {
+    int[] nums = {1, 1, 1, 1};
+    int expected = 6;
 
-        int actual = solution.numIdenticalPairs(nums);
+    int actual = solution.numIdenticalPairs(nums);
 
-        assertThat(actual).isEqualTo(expected);
-    }
+    assertThat(actual).isEqualTo(expected);
+  }
 
-    @Test
-    void example3_returnsExpectedResult() {
-        int[] nums = {1, 2, 3};
-        int expected = 0;
+  @Test
+  void example3_returnsExpectedResult() {
+    int[] nums = {1, 2, 3};
+    int expected = 0;
 
-        int actual = solution.numIdenticalPairs(nums);
+    int actual = solution.numIdenticalPairs(nums);
 
-        assertThat(actual).isEqualTo(expected);
-    }
+    assertThat(actual).isEqualTo(expected);
+  }
 }

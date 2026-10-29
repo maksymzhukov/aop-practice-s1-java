@@ -1,3 +1,7 @@
 .idea
 target
 *.iml
+
+.jqwik-database
+hs_err_pid*.log
+target/
